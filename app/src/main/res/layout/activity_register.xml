@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.wolf.silver.hospitalinformationsystem.Register">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_name"
+        android:layout_gravity="center_horizontal"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_password"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_con_password"
+        android:layout_gravity="center_horizontal"
+        android:hint="Confirm password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_age"
+        android:layout_gravity="center_horizontal"
+        android:hint="Age" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_sex"
+        android:layout_gravity="center_horizontal"
+        android:hint="Sex" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_address"
+        android:layout_gravity="center_horizontal"
+        android:hint="Address" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_phone"
+        android:layout_gravity="center_horizontal"
+        android:hint="phone number" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_date"
+        android:layout_gravity="center_horizontal"
+        android:hint="Date" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ward"
+        android:layout_gravity="center_horizontal"
+        android:hint="ward" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/bn_reg"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

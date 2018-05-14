@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context="com.wolf.silver.hospitalinformationsystem.InsertLab">
+
+    <EditText
+        android:id="@+id/speci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="specimen" />
+
+    <EditText
+        android:id="@+id/tn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="test name" />
+
+    <EditText
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="results" />
+
+    <EditText
+        android:id="@+id/refe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="reference range" />
+
+    <EditText
+        android:id="@+id/datee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="date" />
+
+    <Button
+        android:id="@+id/inse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:text="Insert"
+        android:textColor="@color/ic_launcher_background" />
+</LinearLayout>
